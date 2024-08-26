@@ -45,7 +45,7 @@ with st.container():
         st.write("Click below for my Youtube Channel!")
         st.header("[Click Here!](https://youtu.be/ivtte7E9Wso?si=fKnHUAmu-qnLvNta)")
     with right_column:
-        st.image(Image.open(r"images\Pic.png"), width=400)
+        st.image(Image.open("images/Pic.png"), width=400)
 
 # - VIDEOS SECTION - #
 # - VIDEO #1 - #
