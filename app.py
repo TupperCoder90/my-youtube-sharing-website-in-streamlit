@@ -55,7 +55,7 @@ with st.container():
     st.write("##")
     left_section, right_section = st.columns((1, 2))
     with left_section:
-        st.image(Image.open("images\ThumbnailOne.webp"), use_column_width=True)
+        st.image(Image.open("images/ThumbnailOne.webp"), use_column_width=True)
     with right_section:
         st.subheader("Best Creations from the Scrap Mechanic Community! [PART 2]")
         st.write("""Hello guys today we have a part two to the showcasing video where we will showcase more creations! 
@@ -69,7 +69,7 @@ with st.container():
 with st.container():
     left_section, right_section = st.columns((1, 2))
     with left_section:
-        st.image(Image.open("images\ThumbnailTwo.webp"), use_column_width=True)
+        st.image(Image.open("images/ThumbnailTwo.webp"), use_column_width=True)
     with right_section:
         st.subheader("I Made Airplane wings FLEX In Kerbal Space Program!")
         st.write("""Hello, guys and Tupper is back! 
@@ -85,7 +85,7 @@ with st.container():
     st.write("--")
     left_section, right_section = st.columns((1, 2))
     with left_section:
-        st.image(Image.open("images\ThumbnailThree.webp"), use_column_width=True)
+        st.image(Image.open("images/ThumbnailThree.webp"), use_column_width=True)
     with right_section:
         st.subheader("Scrap Mechanic 'Complex' Train Mechanics: My Most Complicated Train Part 2")
         st.write("""Tupper is back and today we'll see this train that somehow broke his recording software! 
@@ -100,7 +100,7 @@ with st.container():
 with st.container():
     st.write("---")
     st.header("This is my Channel Page:")
-    st.image(Image.open("images\Channel.png"), use_column_width=True)
+    st.image(Image.open("images/Channel.png"), use_column_width=True)
     st.header("This is my Channel Details:")
-    st.image(Image.open("images\Details.png"), use_column_width=True)
+    st.image(Image.open("images/Details.png"), use_column_width=True)
 
